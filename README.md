@@ -1,6 +1,6 @@
 ## Android Circle Progress View
 ### ScreenShot
-![circleprogress](https://github.com/pihat/Android_CircleProgress/screenshot/circleprogress.gif)    
+![circleprogress](https://github.com/pihat/Android_CircleProgress/blob/master/screenshot/circleprogress.gif)    
 ### How to use?
 #### In XML
 ##### Attributions
@@ -18,7 +18,8 @@
 * style(STROKE or FILL )
         
 ##### Example
-`<com.ihat.pihat.circleprogress.CircleProgress
+```
+<com.ihat.pihat.circleprogress.CircleProgress
         android:id="@+id/cpv_finance"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -26,7 +27,9 @@
         app:despTextSize="07sp"
         app:roundProgressColor="@color/colorPrimaryDark"
         app:valueTextColor="@color/colorAccent"
-        app:circleStrokeWidth="2dp"/>`
+        app:circleStrokeWidth="2dp"/>
+```
+
         
 #### In Java
 ##### Method
@@ -49,8 +52,10 @@
 *  setSweepValue(int)  
 
 ##### Example
-`holder.cpv.setAnimDuration(2000);
+```
+        holder.cpv.setAnimDuration(2000);
         holder.cpv.setInterpolator(new AccelerateDecelerateInterpolator());
         holder.cpv.setSweepValue(value);
         holder.cpv.setValueText(beanList.get(position).getNum() + "万");
-        holder.cpv.anim();`
+        holder.cpv.anim();
+```

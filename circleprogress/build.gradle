@@ -26,8 +26,8 @@ dependencies {
 publish {
     userOrg = 'pihat'
     groupId = 'com.pihat'
-    artifactId = 'pihatsutils'
-    publishVersion = '0.0.9'
+    artifactId = 'circleprogress'
+    publishVersion = '0.91'
     desc = 'An useful android utils'
-    website = 'https://github.com/pihat/AndroidUtils'
+    website = 'https://github.com/pihat/Android_CircleProgress'
 }
