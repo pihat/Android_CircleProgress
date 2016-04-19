@@ -29,8 +29,7 @@ public class FinanceAdapter extends RecyclerView.Adapter<FinanceAdapter.FinanceV
     @Override
     public FinanceViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(mContext).inflate(R.layout.item_finance, parent, false);
-        FinanceViewHolder viewHolder = new FinanceViewHolder(itemView);
-        return viewHolder;
+        return new FinanceViewHolder(itemView);
     }
 
     @Override

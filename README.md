@@ -1,6 +1,11 @@
 ## Android Circle Progress View
 ### ScreenShot
 ![circleprogress](https://github.com/pihat/Android_CircleProgress/blob/master/screenshot/circleprogress.gif)    
+### Including in your project
+#### Using Maven
+Just need to add the following dependency to your `build.gradle` .
+
+`compile 'com.pihat:circleprogress:0.91'`
 ### How to use?
 #### In XML
 ##### Attributions
