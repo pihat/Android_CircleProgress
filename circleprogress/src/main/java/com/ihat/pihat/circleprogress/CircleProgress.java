@@ -102,7 +102,7 @@ public class CircleProgress extends View {
         }
 
         mCircleXY = length / 2;
-        mRadius = (float) (length * 18 / 40);
+        mRadius = length * 18 / 40;
 
         mCirclePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mCirclePaint.setColor(roundColor);

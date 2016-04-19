@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
+import com.ihat.pihat.circleprogress.CircleProgress;
 
 import java.util.List;
 
