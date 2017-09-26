@@ -2,10 +2,10 @@
 ### ScreenShot
 ![circleprogress](https://github.com/pihat/Android_CircleProgress/blob/master/screenshot/circleprogress.gif)    
 ### Including in your project
-#### Using Maven
-Just need to add the following dependency to your `build.gradle` .
-
+#### Using Gradle
+Just need to add the following dependency to your `build.gradle` <br>
 `compile 'com.pihat:circleprogress:0.91'`
+
 ### How to use?
 #### In XML
 ##### Attributions
@@ -38,23 +38,23 @@ Just need to add the following dependency to your `build.gradle` .
         
 #### In Java
 ##### Method
-*  setValueText(String)
-*  setValueTextColor(int)
-*  setValueTextSize(int)
-*  setDespText(String)
-*  setDespTextSize(int)
+* setValueText(String)
+* setValueTextColor(int)
+* setValueTextSize(int)
+* setDespText(String)
+* setDespTextSize(int)
 * setDespTextColor(int)
 * setValueTextIsDisplayable(boolean)
 * setDespTextIsDisplayable(boolean)
 * setRoundColor(int)
 * setRoundProgressColor(int)
 * setCircleStrokeWidth(int)
-* setCircleStyle(int)   (Stroke - 0, FILL - 1)
+* setCircleStyle(int)   (Stroke: 0, FILL: 1)
 * setSweepAngle(int)
 * setInterpolator(Interpolator)
 * setAnimDuration(int)
 * forceInvalidate(void)
-*  setSweepValue(int)  
+* setSweepValue(int)  
 
 ##### Example
 ```
